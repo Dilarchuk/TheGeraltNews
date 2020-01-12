@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="{% static 'WebSite/css/main.css' %}">
 </head>
 <body>
-    <p class  = 'title'> Ведьмаку заплатите чеканной монетой</p>
+    <p class  = 'title'> Новости о сериале "Ведьмак"</p>
     {% for item in articles %}
         <li><a href="article/{{ item.id }}/">{{ item.title }}</a></li>
         <br> <!--perehod na novuy. strochku-->

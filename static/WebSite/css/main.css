@@ -3,23 +3,50 @@ html {
     width: 100%;
 }
 .title {
+    background-color: rgba(0, 0, 0, 0.36);
+    padding-top: 3%;
+    padding-bottom: 3%;
     text-align: center;
     font-size: 5vw;
-    color: black;
+    color: white;
     font-family: "Copperplate Gothic Bold";
 }
+.articletitle {
+    text-align: center;
+    font-size: 3vw;
+}
 body {
-    background-image: url("../img/The-Witcher.png");
+    background-image: url("../img/7-seasons-1024x574.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    width:100%;
-    height: 100%;
     font-family: "Copperplate Gothic Bold";
     font-size: 1rem;
+    margin: 0;
 }
 a {
-    color: black;
-    font-size: 2vm
+    color: white;
+    font-size: 2.5vw;
+}
+li {
+    color: white;
+    padding: 0;
+    list-style-type: armenian;
+}
+
+p {
+    color: white;
+    font-size: 2vw;
+}
+
+.article {
+    background-color: rgba(0, 0, 0, 0.36);
+}
+input {
+    background-color: rgba(251, 251, 251, 0.27);
+    border: none;
+    font-size: 1.5vw;
+    text-align: center;
+    padding: 3px;
 }
