@@ -31,6 +31,7 @@ body {
 a {
     color: white;
     font-size: 2.5vw;
+    text-decoration: none;
 }
 li {
     color: white;
